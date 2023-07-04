@@ -34,6 +34,7 @@
     "eslint-config-next": "13.1.6",
     "graphql": "^16.6.0",
     "graphql-upload": "^16.0.2",
+    "jsonwebtoken": "^9.0.0",
     "micro": "^10.0.1",
     "micro-cors": "^0.1.1",
     "mongoose": "^6.9.0",
@@ -69,12 +70,12 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.0",
     "prettier": "^2.8.5",
     "storybook-addon-apollo-client": "^4.0.13",
     "storybook-addon-next-auth0": "^1.0.6",
     "storybook-addon-next-router": "^4.0.2",
     "storybook-tailwind-dark-mode": "^1.0.15",
-    "tsconfig-paths-webpack-plugin": "^4.0.0",
-    "husky": "^8.0.0"
+    "tsconfig-paths-webpack-plugin": "^4.0.0"
   }
 }
