@@ -42,7 +42,7 @@ const Accordion = () => {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-        <div className="mx-auto max-w-4xl divide-y divide-gray-900/10 border rounded">
+        <div className="mx-auto max-w-4xl divide-y divide-gray-900/10 border border-[#dee2e6] rounded">
           <dl className="  divide-y divide-gray-900/10">
             {faqs.map((faq, idx) => (
               <Disclosure as="div" key={faq.question}>
@@ -52,7 +52,7 @@ const Accordion = () => {
                       <Disclosure.Button
                         className={classNames(
                           'flex w-full items-start justify-between text-left  py-4 px-5',
-                          idx == 0 ? 'rounded-t' : '',
+                          idx == 0 ? 'rounded-t border-b border-[#dee2e6]' : '',
                           open
                             ? 'bg-[#e7f1ff] text-[#0c63e4]  focus-within:ring-4 focus-within:ring-[#86b7fe]/50'
                             : 'text-[#212529]'
