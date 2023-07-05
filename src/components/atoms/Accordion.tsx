@@ -43,7 +43,7 @@ const Accordion = () => {
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10 border border-[#dee2e6] rounded">
-          <dl className="  divide-y divide-gray-900/10">
+          <dl className="  divide-y divide-[#dee2e6]'">
             {faqs.map((faq, idx) => (
               <Disclosure as="div" key={faq.question}>
                 {({ open }) => (
