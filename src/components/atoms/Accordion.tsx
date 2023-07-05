@@ -80,7 +80,7 @@ const Accordion = () => {
                       leaveTo="transform   max-h-0"
                     >
                       {' '}
-                      <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                      <Disclosure.Panel as="dd" className=" pr-12">
                         <p className="text-base leading-7 text-gray-600 py-4 px-5">
                           {faq.answer}
                         </p>
