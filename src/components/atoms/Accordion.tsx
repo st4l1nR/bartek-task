@@ -51,11 +51,11 @@ const Accordion = () => {
                     <dt>
                       <Disclosure.Button
                         className={classNames(
-                          'flex w-full items-start justify-between text-left  p-4 ',
+                          'flex w-full items-start justify-between text-left  py-4 px-5',
                           idx == 0 ? 'rounded-t' : '',
                           open
                             ? 'bg-[#e7f1ff] text-[#0c63e4]  focus-within:ring-4 focus-within:ring-[#86b7fe]/50'
-                            : 'text-gray-900'
+                            : 'text-[#212529]'
                         )}
                       >
                         <span className="text-base  leading-7   ">
@@ -75,13 +75,13 @@ const Accordion = () => {
                     <Transition
                       className="transition-all duration-500 overflow-hidden"
                       enterFrom="transform max-h-0"
-                      enterTo="transform max-h-96"
-                      leaveFrom="transform max-h-96"
+                      enterTo="transform max-h-[400px]"
+                      leaveFrom="transform max-h-[400px]"
                       leaveTo="transform   max-h-0"
                     >
                       {' '}
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                        <p className="text-base leading-7 text-gray-600 p-4">
+                        <p className="text-base leading-7 text-gray-600 py-4 px-5">
                           {faq.answer}
                         </p>
                       </Disclosure.Panel>

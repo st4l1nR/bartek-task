@@ -1,8 +1,5 @@
 'use client';
 import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
 import { Accordion } from '@components/atoms';
 
 const navigation = [
@@ -13,8 +10,6 @@ const navigation = [
 ];
 
 const Home = (): JSX.Element => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="bg-white isolate">
       <Accordion />
